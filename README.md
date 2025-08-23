@@ -33,9 +33,13 @@ To control the behavior of Scan-Network, there are some command line arguments a
 The command line options are
 
 -D            : Allows you activate Debugging mode
+
 -Y <filename> : The filename of the YAML-file to use, if none is given, Scan-Network.yaml is used
+
 -P <filename> : The filename of the file containing the devices to ping and, eventually, do a portscan
+
 -N <string>   : the partial IP address of the network to scan Eg: 192.168.1  or 10.15.12 
+
 -M <string>   : optional the netmask to use eg: 255.255.252.0. Default is 255.255.255.0
 
 The YAML file cantains a lot more options. For the content of the YAML-file I refer to the sample included.
