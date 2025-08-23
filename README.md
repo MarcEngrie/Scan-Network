@@ -34,7 +34,7 @@ The command line options are
 
 -D            : optional - Allows you activate Debugging mode
 
--Y <filename> : optional - the filename of the YAML-file to use, if none is given, Scan-Network.yaml is used
+-Y <filename> : optional - the filename of the YAML-file to use. If none is given, Scan-Network.yaml is used
 
 -P <filename> : optional - the filename of the file containing the devices to ping and, eventually, do a portscan
 
