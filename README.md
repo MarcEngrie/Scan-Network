@@ -217,6 +217,78 @@ IP inventory
 ...
 ~~~
 
+Extract from a sample .mdns file
+~~~
+##################################################
+### File created by Scan-Network               ###
+###                 Version: 4.00              ###
+### File created on 2025-08-23                 ###
+##################################################
+### Network: 192.168.1       255.255.255.0     ###
+###          192.168.1.0/24                    ###
+###          192.168.1.0     255.255.255.0     ###
+##################################################
+
+Hosts broadcasting services
+---------------------------
+192.168.001.001 - router                                    Port:  8000 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:     9 - Service: WORKSTATION                              (_workstation._tcp.local. )
+192.168.001.009 - devolo-5400                               Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+192.168.001.017 - storage2                                  Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local. )
+                                                            Port:    21 - Service: FTP                                      (_ftp._tcp.local.         )
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.         )
+192.168.001.036 - esp32-alarm                               Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.     ) with properties: auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1
+192.168.001.037 - shelly1pm-borrelbol                       Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+192.168.001.039 - volumio-keuken                            Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:  5000 - Service: RAOP (REMOTE AUDIO OUTPUT PROTOCOL)      (_raop._tcp.local.        )
+192.168.001.049 - volumio-living                            Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local. )
+                                                            Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:  5000 - Service: RAOP (REMOTE AUDIO OUTPUT PROTOCOL)      (_raop._tcp.local.        )
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.         )
+192.168.001.050 - volumio-garage                            Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local. )
+                                                            Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:  5000 - Service: RAOP (REMOTE AUDIO OUTPUT PROTOCOL)      (_raop._tcp.local.        )
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.         )
+192.168.001.057 - esp32-co2-48e7299ff6ec                    Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.     ) with properties: auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1
+192.168.001.059 - shelly25-office                           Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+192.168.001.061 - chromecast-bedroom                        Port:  8009 - Service: CHROMECAST                               (_googlecast._tcp.local.  )
+192.168.001.064 - shellyplug-badkamer                       Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+192.168.001.069 - shelly25-keuken                           Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+192.168.001.070 - epsonwf3820                               Port:    80 - Service: HTTP WEB SERVER                          (_http._tcp.local.        )
+                                                            Port:   631 - Service: PRINTER                                  (_ipp._tcp.local.         )
+...
+
+
+Services being broadcasted
+--------------------------
+Service: CHROMECAST                               (_googlecast._tcp.local.)
+  chromecast-bedroom                       on <192.168.001.061> listing on port <8009>
+
+Service: DEVICE INFO                              (_device-info._tcp.local.)
+  storage2                                 on <192.168.001.017> listing on port <0>
+  volumio-garage                           on <192.168.001.050> listing on port <0>
+  volumio-badkamer                         on <192.168.001.083> listing on port <0>
+  volumio-living                           on <192.168.001.049> listing on port <0>
+
+Service: ESPHOME                                  (_esphomelib._tcp.local.)
+  esp32-bt-proxy                           on <192.168.001.143> listing on port <6053>
+
+Service: FTP                                      (_ftp._tcp.local.)
+  storage2                                 on <192.168.001.017> listing on port <21>
+
+Service: HTTP WEB SERVER                          (_http._tcp.local.)
+  shellyplug-bedverwarming                 on <192.168.001.077> listing on port <80>
+  shelly25-office                          on <192.168.001.059> listing on port <80>
+  shelly25-regenwater                      on <192.168.001.122> listing on port <80>
+  shelly25-borrelsteen                     on <192.168.001.139> listing on port <80>
+  shellyplug-badkamer                      on <192.168.001.064> listing on port <80>
+  shellyplug-badkamer2                     on <192.168.001.126> listing on port <80>
+...
+~~~
+
 
 <img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/7b2a377d-f0e2-48f9-80f4-f11b206ea15a" />
 
