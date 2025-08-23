@@ -1,6 +1,6 @@
 # Scan-Network (Version 4.00)
 
-Scan-network is a combination of previous Python scripts Ping-Network and ScanNetwork which are now obsoleted and will not be maintained anymore. 
+Scan-Network is a combination of previous Python scripts Ping-Network.py and ScanNetwork.py which are now obsoleted and will not be maintained anymore. 
 
 The first function of Scan-Network is to ping all IP-addreses in a network. 
 You can also enabled ARP-scanning to find devices that did not respond to a ping. 
