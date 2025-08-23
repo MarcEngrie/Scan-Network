@@ -69,7 +69,7 @@ Any deivce not responding will be reported. Any device alive and not in the list
 idem for ports if port scan was requested.
 
 **Note:** 
-Should a device be occasionally be online/alive, then you can control the reporting by changing the status-flag in the .lst file from A (always) to O (occasionally)
+Should a device occasionally be online, then you can control the reporting by changing the status-flag in the .lst file from A (always) to O (occasionally)
 
 Reporting of anomalies can be on the screen (PRINT), in a file .err (FILE), mail (SMTP) or via syslog message (SYSLOG). 
 All controlled in the corresponding section of the YAML-file
