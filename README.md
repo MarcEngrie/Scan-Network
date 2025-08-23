@@ -218,5 +218,5 @@ IP inventory
 ~~~
 
 
-
+<img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/7b2a377d-f0e2-48f9-80f4-f11b206ea15a" />
 
