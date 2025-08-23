@@ -62,7 +62,7 @@ You can edit the .txt file to add or correct as what needed. Then, rename it to 
 
 When you run the tool like this
 
-  `python.exe Ping-Network.py -P "Scan-Network_192.168.1.lst" -N "192.168.1"`
+  `python.exe Scan-Network.py -P "Scan-Network_192.168.1.lst" -N "192.168.1"`
 
 the tool will do a full scan of the network as well as a specific scan of all devices list in Scan-Network_192.168.1.lst. 
 Any deivce not responding will be reported. Any device alive and not in the list will also be reported.
