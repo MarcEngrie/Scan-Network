@@ -35,7 +35,7 @@ A report file .mdns is generated so you can see which device is publishing what 
 
 Combining function one and two will also report IP addresses that are not in the list but alive in your network a.k.a. rogue devices.
 
-Reporting can be on screen, to a file, via mail or via syslog or any combination of the 3. 
+Reporting can be on screen, to a file, via mail or via syslog or any combination of the 4. 
 
 To control the behavior of Scan-Network, there are some command line arguments as well as a YAML file. 
 
