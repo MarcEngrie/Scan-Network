@@ -16,17 +16,24 @@ A file listing all of this information can be generated.
 
   `pip install scapy`
 
-The second function of Scan-Network is to ping a provided list of device to see itf they are alive or not.
+  ARP scanning will only be doen if the host sits in the same network that yo are scanning.
+  It has no sense doing an ARP scan if host only can reach the scanned network through a router
+
+  Port scanning wil only be done if network is private (10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16). 
+  Public networks will not be scanned.
+
+The second function of Scan-Network is to ping a provided list of devices to see itf they are alive or not.
 Once a IP address is responding to a ping, a check for open ports can be dexecuted and matched against the list of open ports for that IP-address.
 Mismataches will be reported.
+
+A .net file is generated listing all IP-addresses in the network you specified. 
+The file contains for each device that is alive in your network, its IP-address, its hostname if availble, its MAC-address and a list op open ports. 
+IP-addresses not alive are just listed as is. 
 
 The third function of Scan-Network is to check for a list of known mDNS services available in your network.
 A report file .mdns is generated so you can see which device is publishing what mDNS service. 
 
-Combining function one and two will also report IP addresses that are not in the list but alive in your network aka as rogue devices.
-A .net file is generated listing all IP-addresses in the network you specified. 
-The file contains for each device that is alive in your network, its IP-address, its hostname if availble, its MAC-address and a list op open ports. 
-IP-addresses not alive are just listed as is. 
+Combining function one and two will also report IP addresses that are not in the list but alive in your network a.k.a. rogue devices.
 
 To control the behavior of Scan-Network, there are some command line arguments as well as a YAML file. 
 
@@ -53,10 +60,9 @@ Some run examples
 
 will run a full scan of the network 192.168.1.0/24 or with netmask "255.255.255.0". So from 192.168.1.1 to 192.168.1.254. 
 All devices that reply to a ping, or apr-request if enabled in YAML-file, will be listed in a file called Scan-Network_192.168.1.txt.
-If they have a DNS-record in the DNS server used, a hostname will be added.
+If they have a DNS-record in the DNS server used, a hostname will be added. Note to disable LISTSCAN in the YAML file.
 A second file Scan-Network_192.168.1.net is created listing all alive IP's with their hostname, if available, and their MAC-address.
 In the file you find a second list with all IP's (alive and not responding). So you can see what IPs are still available.
-
 
 You can edit the .txt file to add or correct as what needed. Then, rename it to Scan-Network_192.168.1.lst.
 
@@ -87,7 +93,6 @@ A full scan of a network of 255 IP-address including a port scan between 1 and 1
 Increasing port scan to 2048 increases it with another extra 2 hours adding the total runtime to 4 hours.
 
 **A note on port scanning:**
-
 This application includes port scanning that can help you diagnose
 your network for issues, discover services, and improve security.
 However, this comes with responsibility.
