@@ -1,0 +1,126 @@
+################################################
+# Format: hostname;IP-address;Status;Ports: 
+# Status can be A = Active or O = occasionally
+# Ports is a comma separated list of ports to be open
+################################################
+### Internal netwerk - 192.168.1
+################################################
+#-----------------------------------------------
+# Network devices - Fixed IP
+#-----------------------------------------------
+router;192.168.1.1;A;Ports: 9, 22, 53, 80, 139, 161, 443, 445, 515, 8000
+ap-tpwr802n-engrie4;192.168.1.2;A;Ports: 
+ap-tpwr802n-lepouttre343;192.168.1.3;A;Ports: 
+ap-tplinkeap615l;192.168.1.4;A;Ports: 80, 443
+pl-tplinkwpa7510g;192.168.1.5;A;Ports: 80
+ap-tplinkeap225b;192.168.1.6;A;Ports: 80, 443
+ap-tplinkeap115b;192.168.1.7;A;Ports: 80, 443
+ap-tplinkeap615g;192.168.1.8;A;Ports: 80, 443
+devolo-5400;192.168.1.9;A;Ports: 80, 443, 14791
+sw-netgeargs116eb;192.168.1.10;A;Ports: 80
+sw-netgeargs308eppb;192.168.1.11;A;Ports: 80
+sw-netgeargs308eppg;192.168.1.12;A;Ports: 80
+sw-netgeargs305eppk;192.168.1.13;A;Ports: 80
+storage1;192.168.1.16;A;Ports: 80, 139, 443, 445, 515, 554, 631
+storage2;192.168.1.17;A;Ports: 0, 21, 22, 80, 139, 161, 443, 445
+
+#-----------------------------------------------
+# DHCP reservations
+#-----------------------------------------------
+# Appliances
+daikin-bedroom;192.168.1.103;A;Ports: 80
+daikin-bureau;192.168.1.107;A;Ports: 80
+daikin-keuken;192.168.1.47;A;Ports: 80
+daikin-living;192.168.1.68;A;Ports: 80
+durlem-vi50connect;192.168.1.92;A;Ports: 80, 5140
+smasbse50;192.168.1.119;A;Ports: 443, 502
+lg-droogkast;192.168.1.96;A;Ports: 
+
+# Small stuff
+chromecast-bedroom;192.168.1.61;A;Ports: 8009, 10001
+ipcamera-garage;192.168.1.60;A;Ports: 88, 443, 888
+ipcamera-garden;192.168.1.65;A;Ports: 80, 443, 554
+
+# ESP32
+esp32-alarm;192.168.1.36;A;Ports: 80, 3232
+esp32-accusturing;192.168.1.162;A;Ports: 3232
+esp32-co2-3ce90e852504;192.168.1.82;A;Ports: 80, 3232
+esp32-co2-48e7299e4f38;192.168.1.163;A;Ports: 80, 3232
+esp32-co2-48e7299ff6ec;192.168.1.57;A;Ports: 80, 3232
+esp32-co2-7c9ebd61a514;192.168.1.116;A;Ports: 80, 3232
+esp32-co2-94e6863cee0c;192.168.1.160;A;Ports: 80, 3232
+esp32-mainsvlogger;192.168.1.118;A;Ports: 80, 3232
+esp32-sw-48e7299ff720;192.168.1.110;A;Ports: 80, 3232
+esp32-vadc-94b555f9edcc;192.168.1.71;A;Ports: 80, 3232 
+esp32-vadc-94b555f9fac0;192.168.1.123;A;Ports: 80, 3232
+esp32-bt-proxy;192.168.1.143;A;Ports: 6053
+esp32s3-09d6a0;192.168.1.127;A;Ports: 80, 443, 4403
+#esp32-distancemeter;192.168.1.142;A
+
+# Raspberry Pi
+meraspi3b1g-chickenport;192.168.1.40;A;Ports: 22
+meraspi4b4g-weatherstation;192.168.1.43;A;Ports: 22, 80
+meraspi4b2g-greenhouse;192.168.1.45;A;Ports: 22, 80
+homeassistant;192.168.1.76;A;Ports: 111, 139, 445, 8123
+telraam;192.168.1.52;A;Ports: 80
+volumio-badkamer;192.168.1.83;A;Ports: 0, 22, 80, 111, 139, 445, 3000, 5000
+volumio-keuken;192.168.1.39;A;Ports: 22, 80, 111, 139, 445, 3000, 5000
+volumio-living;192.168.1.49;A;Ports: 0, 22, 80, 111, 139, 445, 3000, 5000
+volumio-garage;192.168.1.50;A;Ports: 0, 22, 80, 111, 139, 445, 3000, 5000
+octopi;192.168.1.66;O;Ports: 22, 80, 443
+#meraspi3b1g-test;192.168.1.153;192.168.1.114;A
+#meraspi3b1g-weatherstation;192.168.1.35;A
+#meraspi4b-ventiwater;192.168.1.32;A;Ports:
+
+# Office
+laptop-oldies;192.168.1.74;O;Ports:
+oldies;192.168.1.42;A;Ports: 22, 110, 135, 139, 143, 445, 587
+dell5580-marleen;192.168.1.53;A;Ports: 
+epsonwf3820;192.168.1.70;A;Ports: 80, 443, 515, 631, 1865, 9100
+hpoj7110;192.168.1.138;O;Ports: 80, 515
+
+# Smartphones
+ma-oneplus13r;192.168.1.73;O;Ports: 53601
+me-oneplus12r;192.168.1.150;O;Ports:
+
+# Shellies
+shelly1pm-a3printer;192.168.1.72;A;Ports: 80
+shelly1pm-borrelbol;192.168.1.37;A;Ports: 80
+shelly1pm-musiccenter;192.168.1.84;A;Ports: 80
+shelly25-borrelsteen;192.168.1.139;A;Ports: 80
+shelly25-compressor;192.168.1.121;A;Ports: 80
+shelly25-droogkast;192.168.1.100;A;Ports: 80
+shelly25-fietsen;192.168.1.145;A;Ports: 80
+shelly25-keuken;192.168.1.69;A;Ports: 80
+shelly25-office;192.168.1.59;A;Ports: 80
+shelly25-regenwater;192.168.1.122;A;Ports: 80
+shelly2pm-3dprinter;192.168.1.93;A;Ports: 80
+shelly2pm-gardenpump;192.168.1.132;A;Ports: 80
+shelly4pm-garage;192.168.1.81;A;Ports: 80
+shellyplug-badkamer2;192.168.1.126;A;Ports: 80
+shellyplug-badkamer;192.168.1.64;A;Ports: 80
+shellyplug-bedverwarming;192.168.1.77;A;Ports: 80
+shellyplugs-freezer1;192.168.1.95;A;Ports: 80
+shellyplugs-freezer2;192.168.1.129;A;Ports: 80
+shellyplugs-frigo;192.168.1.130;A;Ports: 80
+
+
+################################################
+### External netwerks
+################################################
+#-----------------------------------------------
+# DNS Google
+#-----------------------------------------------
+dns.google;8.8.8.8;A
+#-----------------------------------------------
+# DNS OpenDNS
+#-----------------------------------------------
+dns.umbrella.com;208.67.222.222;A
+#-----------------------------------------------
+# DNS EU
+#-----------------------------------------------
+protective.joindns4.eu;86.54.11.1;A
+child-noads.joindns4.eu;86.54.11.11;A
+child.joindns4.eu;86.54.11.12;A
+noads.joindns4.eu;86.54.11.13;A
+unfiltered.joindns4.eu;86.54.11.100;A

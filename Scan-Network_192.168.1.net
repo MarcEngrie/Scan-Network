@@ -1,0 +1,347 @@
+##################################################
+### File created by Scan-Network               ###
+###                 Version: 4.00              ###
+### File created on 2025-09-02                 ###
+##################################################
+### Network: 192.168.1       255.255.255.0     ###
+###          192.168.1.0/24                    ###
+###          192.168.1.0     255.255.255.0     ###
+###          192.168.1.1     192.168.1.254     ###
+##################################################
+### Portscan from     1 to  1024               ###
+##################################################
+
+
+IPs alive ( 71)
+---------------
+192.168.001.001 - router                                    00:11:32:bf:d2:75  Open Ports: 9 (Wake-on-LAN), 22 (SSH), 53 (DNS), 80 (HTTP), 139 (NETBIOS Session Service), 161 (SNMP), 443 (HTTPS), 445 (Microsoft-DS), 515 (spooler), 8000 (iRDMI)
+192.168.001.002 - ap-tpwr802n-engrie4                       78:8c:b5:d3:de:5d
+192.168.001.003 - ap-tpwr802n-lepouttre343                  9c:53:22:49:48:a5
+192.168.001.004 - ap-tplinkeap615l                          d8:44:89:27:a7:ee  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.005 - pl-tplinkwpa7510g                         ac:84:c6:1a:6b:74  Open Ports: 80 (HTTP)
+192.168.001.006 - ap-tplinkeap225b                          ac:84:c6:27:ee:2a  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.007 - ap-tplinkeap115b                          68:ff:7b:96:f0:05  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.008 - ap-tplinkeap615g                          60:83:e7:31:f0:a0  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.009 - devolo-5400                               8e:fc:a6:10:02:58  Open Ports: 80 (HTTP), 443 (HTTPS), 14791 (unassigned)
+192.168.001.010 - sw-netgeargs116eb                         38:94:ed:2f:03:af  Open Ports: 80 (HTTP)
+192.168.001.011 - sw-netgeargs308eppb                       54:07:7d:18:bf:c0  Open Ports: 80 (HTTP)
+192.168.001.012 - sw-netgeargs308eppg                       54:07:7d:18:bf:41  Open Ports: 80 (HTTP)
+192.168.001.013 - sw-netgeargs305eppk                       e0:46:ee:fc:da:d9  Open Ports: 80 (HTTP)
+192.168.001.016 - storage1                                  00:11:32:62:77:39  Open Ports: 80 (HTTP), 139 (NETBIOS Session Service), 443 (HTTPS), 445 (Microsoft-DS), 515 (spooler), 554 (RTSP), 631 (IPP)
+192.168.001.017 - storage2                                  00:11:32:20:55:af  Open Ports: 0 (unassigned), 21 (FTP [Control]), 22 (SSH), 80 (HTTP), 139 (NETBIOS Session Service), 161 (SNMP), 443 (HTTPS), 445 (Microsoft-DS)
+192.168.001.036 - esp32-alarm                               9c:9c:1f:e9:d2:28  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.037 - shelly1pm-borrelbol                       08:3a:f2:02:09:3c  Open Ports: 80 (HTTP)
+192.168.001.039 - volumio-keuken                            b8:27:eb:e0:5b:c5  Open Ports: 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.040 - meraspi3b1g-chickenport                   8e:fc:a6:10:02:58  Open Ports: 22 (SSH)
+192.168.001.042 - oldies                                    10:7C:61:78:D4:CB  Open Ports: 22 (SSH), 110 (POP3), 135 (DCE endpoint resolution), 139 (NETBIOS Session Service), 143 (Internet Message Access Protocol), 445 (Microsoft-DS), 587 (Mail Message Submission)
+192.168.001.043 - meraspi4b4g-weatherstation                e4:5f:01:4e:d4:57  Open Ports: 22 (SSH), 80 (HTTP)
+192.168.001.045 - meraspi4b2g-greenhouse                    8e:fc:a6:10:02:58  Open Ports: 22 (SSH), 80 (HTTP)
+192.168.001.047 - daikin-keuken                             d0:40:ef:78:a3:d8  Open Ports: 80 (HTTP)
+192.168.001.049 - volumio-living                            b8:27:eb:4e:39:ca  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.050 - volumio-garage                            b8:27:eb:3a:e0:b9  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.052 - telraam                                   b8:27:eb:4b:23:ce  Open Ports: 80 (HTTP)
+192.168.001.053 - dell5580-marleen                          a4:4c:c8:7b:70:27
+192.168.001.057 - esp32-co2-48e7299ff6ec                    48:e7:29:9f:f6:ec  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.059 - shelly25-office                           4c:75:25:32:ec:59  Open Ports: 80 (HTTP)
+192.168.001.060 - ipcamera-garage                           e8:ab:fa:a6:4b:cc  Open Ports: 88 (Kerberos), 443 (HTTPS), 888 (Non-Standard Usage)
+192.168.001.061 - chromecast-bedroom                        a4:77:33:cc:24:50  Open Ports: 8009 (unassigned), 10001 (SCP Configuration)
+192.168.001.064 - shellyplug-badkamer                       f4:cf:a2:6c:c7:41  Open Ports: 80 (HTTP)
+192.168.001.065 - ipcamera-garden                           8e:fc:a6:10:02:58  Open Ports: 80 (HTTP), 443 (HTTPS), 554 (RTSP)
+192.168.001.066 - octopi                                    b8:27:eb:3c:84:f4  Open Ports: 22 (SSH), 80 (HTTP), 443 (HTTPS)
+192.168.001.068 - daikin-living                             d0:40:ef:22:79:fa  Open Ports: 80 (HTTP)
+192.168.001.069 - shelly25-keuken                           4c:75:25:33:a5:76  Open Ports: 80 (HTTP)
+192.168.001.070 - epsonwf3820                               dc:cd:2f:9b:f6:cb  Open Ports: 80 (HTTP), 443 (HTTPS), 515 (spooler), 631 (IPP), 1865 (ENTP), 9100 (Printer PDL Data Stream)
+192.168.001.071 - esp32-vadc-94b555f9edcc                   94:b5:55:f9:ed:cc  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.072 - shelly1pm-a3printer                       80:64:6f:e2:9f:8c  Open Ports: 80 (HTTP)
+192.168.001.073 - ma-oneplus13r                             92:e1:aa:3f:aa:69
+192.168.001.076 - homeassistant                             dc:a6:32:79:a6:e1  Open Ports: 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 8123 (Polipo Web proxy)
+192.168.001.077 - shellyplug-bedverwarming                  48:3f:da:28:e0:78  Open Ports: 80 (HTTP)
+192.168.001.081 - shelly4pm-garage                          30:c6:f7:83:45:48  Open Ports: 80 (HTTP)
+192.168.001.082 - esp32-co2-3ce90e852504                    3c:e9:0e:85:25:04  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.083 - volumio-badkamer                          b8:27:eb:59:ff:02  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.084 - shelly1pm-musiccenter                     b0:b2:1c:0e:8b:5c  Open Ports: 80 (HTTP)
+192.168.001.092 - durlem-vi50connect                        fc:c2:3d:10:2a:2d  Open Ports: 5140 (League of Legends)
+192.168.001.093 - shelly2pm-3dprinter                       d4:8a:fc:7d:5a:04  Open Ports: 80 (HTTP)
+192.168.001.095 - shellyplugs-freezer1                      28:37:2f:2e:f7:3c  Open Ports: 80 (HTTP)
+192.168.001.100 - shelly25-droogkast                        4c:75:25:32:b1:63  Open Ports: 80 (HTTP)
+192.168.001.103 - daikin-bedroom                            d0:40:ef:78:7f:8c  Open Ports: 80 (HTTP)
+192.168.001.107 - daikin-bureau                             d0:40:ef:77:c7:fa  Open Ports: 80 (HTTP)
+192.168.001.110 - esp32-sw-48e7299ff720                     48:e7:29:9f:f7:20  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.116 - esp32-co2-7c9ebd61a514                    7c:9e:bd:61:a5:14  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.118 - esp32-mainsvlogger                        7c:9e:bd:66:e6:64  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.119 - smasbse50                                 00:15:bb:16:93:7d  Open Ports: 443 (HTTPS), 502 (ModBus TCP)
+192.168.001.121 - shelly25-compressor                       f4:cf:a2:ec:a1:94  Open Ports: 80 (HTTP)
+192.168.001.122 - shelly25-regenwater                       4c:75:25:34:1f:09  Open Ports: 80 (HTTP)
+192.168.001.123 - esp32-vadc-94b555f9fac0                   94:b5:55:f9:fa:c0  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.126 - shellyplug-badkamer2                      48:3f:da:28:dc:95  Open Ports: 80 (HTTP)
+192.168.001.127 - esp32s3-09d6a0                            d0:cf:13:09:d6:a0  Open Ports: 80 (HTTP), 443 (HTTPS), 4403 (ASIGRA Televaulting DS-Client Monitoring/Management)
+192.168.001.129 - shellyplugs-freezer2                      28:37:2f:2f:18:90  Open Ports: 80 (HTTP)
+192.168.001.130 - shellyplugs-frigo                         28:37:2f:2f:25:cc  Open Ports: 80 (HTTP)
+192.168.001.132 - shelly2pm-gardenpump                      40:22:d8:d8:7a:78  Open Ports: 80 (HTTP)
+192.168.001.139 - shelly25-borrelsteen                      c4:5b:be:6b:7b:51  Open Ports: 80 (HTTP)
+192.168.001.143 - esp32-bt-proxy                            fc:01:2c:f6:18:f8  Open Ports: 6053 (X11)
+192.168.001.145 - shelly25-fietsen                          4c:75:25:33:76:5c  Open Ports: 80 (HTTP)
+192.168.001.150 - me-oneplus12r                             32:80:23:86:52:63  Open Ports: 53601 (Dynamic/Private)
+192.168.001.160 - esp32-co2-94e6863cee0c                    94:e6:86:3c:ee:0c  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.162 - esp32-accusturing                         48:e7:29:95:f1:00  Open Ports: 3232 (MDT/OTA)
+192.168.001.163 - esp32-co2-48e7299e4f38                    48:e7:29:9e:4f:38  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+
+
+IP inventory  (  71 used,  183 unused)
+--------------------------------------
+192.168.001.001 - router                                    00:11:32:bf:d2:75  Open Ports: 9 (Wake-on-LAN), 22 (SSH), 53 (DNS), 80 (HTTP), 139 (NETBIOS Session Service), 161 (SNMP), 443 (HTTPS), 445 (Microsoft-DS), 515 (spooler), 8000 (iRDMI)
+192.168.001.002 - ap-tpwr802n-engrie4                       78:8c:b5:d3:de:5d
+192.168.001.003 - ap-tpwr802n-lepouttre343                  9c:53:22:49:48:a5
+192.168.001.004 - ap-tplinkeap615l                          d8:44:89:27:a7:ee  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.005 - pl-tplinkwpa7510g                         ac:84:c6:1a:6b:74  Open Ports: 80 (HTTP)
+192.168.001.006 - ap-tplinkeap225b                          ac:84:c6:27:ee:2a  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.007 - ap-tplinkeap115b                          68:ff:7b:96:f0:05  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.008 - ap-tplinkeap615g                          60:83:e7:31:f0:a0  Open Ports: 80 (HTTP), 443 (HTTPS)
+192.168.001.009 - devolo-5400                               8e:fc:a6:10:02:58  Open Ports: 80 (HTTP), 443 (HTTPS), 14791 (unassigned)
+192.168.001.010 - sw-netgeargs116eb                         38:94:ed:2f:03:af  Open Ports: 80 (HTTP)
+192.168.001.011 - sw-netgeargs308eppb                       54:07:7d:18:bf:c0  Open Ports: 80 (HTTP)
+192.168.001.012 - sw-netgeargs308eppg                       54:07:7d:18:bf:41  Open Ports: 80 (HTTP)
+192.168.001.013 - sw-netgeargs305eppk                       e0:46:ee:fc:da:d9  Open Ports: 80 (HTTP)
+192.168.001.014
+192.168.001.015
+192.168.001.016 - storage1                                  00:11:32:62:77:39  Open Ports: 80 (HTTP), 139 (NETBIOS Session Service), 443 (HTTPS), 445 (Microsoft-DS), 515 (spooler), 554 (RTSP), 631 (IPP)
+192.168.001.017 - storage2                                  00:11:32:20:55:af  Open Ports: 0 (unassigned), 21 (FTP [Control]), 22 (SSH), 80 (HTTP), 139 (NETBIOS Session Service), 161 (SNMP), 443 (HTTPS), 445 (Microsoft-DS)
+192.168.001.018
+192.168.001.019
+192.168.001.020
+192.168.001.021
+192.168.001.022
+192.168.001.023
+192.168.001.024
+192.168.001.025
+192.168.001.026
+192.168.001.027
+192.168.001.028
+192.168.001.029
+192.168.001.030
+192.168.001.031
+192.168.001.032
+192.168.001.033
+192.168.001.034
+192.168.001.035
+192.168.001.036 - esp32-alarm                               9c:9c:1f:e9:d2:28  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.037 - shelly1pm-borrelbol                       08:3a:f2:02:09:3c  Open Ports: 80 (HTTP)
+192.168.001.038
+192.168.001.039 - volumio-keuken                            b8:27:eb:e0:5b:c5  Open Ports: 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.040 - meraspi3b1g-chickenport                   8e:fc:a6:10:02:58  Open Ports: 22 (SSH)
+192.168.001.041
+192.168.001.042 - oldies                                    10:7C:61:78:D4:CB  Open Ports: 22 (SSH), 110 (POP3), 135 (DCE endpoint resolution), 139 (NETBIOS Session Service), 143 (Internet Message Access Protocol), 445 (Microsoft-DS), 587 (Mail Message Submission)
+192.168.001.043 - meraspi4b4g-weatherstation                e4:5f:01:4e:d4:57  Open Ports: 22 (SSH), 80 (HTTP)
+192.168.001.044
+192.168.001.045 - meraspi4b2g-greenhouse                    8e:fc:a6:10:02:58  Open Ports: 22 (SSH), 80 (HTTP)
+192.168.001.046
+192.168.001.047 - daikin-keuken                             d0:40:ef:78:a3:d8  Open Ports: 80 (HTTP)
+192.168.001.048
+192.168.001.049 - volumio-living                            b8:27:eb:4e:39:ca  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.050 - volumio-garage                            b8:27:eb:3a:e0:b9  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.051
+192.168.001.052 - telraam                                   b8:27:eb:4b:23:ce  Open Ports: 80 (HTTP)
+192.168.001.053 - dell5580-marleen                          a4:4c:c8:7b:70:27
+192.168.001.054
+192.168.001.055
+192.168.001.056
+192.168.001.057 - esp32-co2-48e7299ff6ec                    48:e7:29:9f:f6:ec  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.058
+192.168.001.059 - shelly25-office                           4c:75:25:32:ec:59  Open Ports: 80 (HTTP)
+192.168.001.060 - ipcamera-garage                           e8:ab:fa:a6:4b:cc  Open Ports: 88 (Kerberos), 443 (HTTPS), 888 (Non-Standard Usage)
+192.168.001.061 - chromecast-bedroom                        a4:77:33:cc:24:50  Open Ports: 8009 (unassigned), 10001 (SCP Configuration)
+192.168.001.062
+192.168.001.063
+192.168.001.064 - shellyplug-badkamer                       f4:cf:a2:6c:c7:41  Open Ports: 80 (HTTP)
+192.168.001.065 - ipcamera-garden                           8e:fc:a6:10:02:58  Open Ports: 80 (HTTP), 443 (HTTPS), 554 (RTSP)
+192.168.001.066 - octopi                                    b8:27:eb:3c:84:f4  Open Ports: 22 (SSH), 80 (HTTP), 443 (HTTPS)
+192.168.001.067
+192.168.001.068 - daikin-living                             d0:40:ef:22:79:fa  Open Ports: 80 (HTTP)
+192.168.001.069 - shelly25-keuken                           4c:75:25:33:a5:76  Open Ports: 80 (HTTP)
+192.168.001.070 - epsonwf3820                               dc:cd:2f:9b:f6:cb  Open Ports: 80 (HTTP), 443 (HTTPS), 515 (spooler), 631 (IPP), 1865 (ENTP), 9100 (Printer PDL Data Stream)
+192.168.001.071 - esp32-vadc-94b555f9edcc                   94:b5:55:f9:ed:cc  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.072 - shelly1pm-a3printer                       80:64:6f:e2:9f:8c  Open Ports: 80 (HTTP)
+192.168.001.073 - ma-oneplus13r                             92:e1:aa:3f:aa:69
+192.168.001.074 - laptop-oldies                         !!!!    NOT ALIVE   !!!!
+192.168.001.075
+192.168.001.076 - homeassistant                             dc:a6:32:79:a6:e1  Open Ports: 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 8123 (Polipo Web proxy)
+192.168.001.077 - shellyplug-bedverwarming                  48:3f:da:28:e0:78  Open Ports: 80 (HTTP)
+192.168.001.078
+192.168.001.079
+192.168.001.080
+192.168.001.081 - shelly4pm-garage                          30:c6:f7:83:45:48  Open Ports: 80 (HTTP)
+192.168.001.082 - esp32-co2-3ce90e852504                    3c:e9:0e:85:25:04  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.083 - volumio-badkamer                          b8:27:eb:59:ff:02  Open Ports: 0 (unassigned), 22 (SSH), 80 (HTTP), 111 (SUN Remote Procedure Call), 139 (NETBIOS Session Service), 445 (Microsoft-DS), 3000 (unassigned), 5000 (UPnP-Windows network device interoperability)
+192.168.001.084 - shelly1pm-musiccenter                     b0:b2:1c:0e:8b:5c  Open Ports: 80 (HTTP)
+192.168.001.085
+192.168.001.086
+192.168.001.087
+192.168.001.088
+192.168.001.089
+192.168.001.090
+192.168.001.091
+192.168.001.092 - durlem-vi50connect                        fc:c2:3d:10:2a:2d  Open Ports: 5140 (League of Legends)
+192.168.001.093 - shelly2pm-3dprinter                       d4:8a:fc:7d:5a:04  Open Ports: 80 (HTTP)
+192.168.001.094
+192.168.001.095 - shellyplugs-freezer1                      28:37:2f:2e:f7:3c  Open Ports: 80 (HTTP)
+192.168.001.096 - lg-droogkast                          !!!!    NOT ALIVE   !!!!
+192.168.001.097
+192.168.001.098
+192.168.001.099
+192.168.001.100 - shelly25-droogkast                        4c:75:25:32:b1:63  Open Ports: 80 (HTTP)
+192.168.001.101
+192.168.001.102
+192.168.001.103 - daikin-bedroom                            d0:40:ef:78:7f:8c  Open Ports: 80 (HTTP)
+192.168.001.104
+192.168.001.105
+192.168.001.106
+192.168.001.107 - daikin-bureau                             d0:40:ef:77:c7:fa  Open Ports: 80 (HTTP)
+192.168.001.108
+192.168.001.109
+192.168.001.110 - esp32-sw-48e7299ff720                     48:e7:29:9f:f7:20  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.111
+192.168.001.112
+192.168.001.113
+192.168.001.114
+192.168.001.115
+192.168.001.116 - esp32-co2-7c9ebd61a514                    7c:9e:bd:61:a5:14  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.117
+192.168.001.118 - esp32-mainsvlogger                        7c:9e:bd:66:e6:64  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.119 - smasbse50                                 00:15:bb:16:93:7d  Open Ports: 443 (HTTPS), 502 (ModBus TCP)
+192.168.001.120
+192.168.001.121 - shelly25-compressor                       f4:cf:a2:ec:a1:94  Open Ports: 80 (HTTP)
+192.168.001.122 - shelly25-regenwater                       4c:75:25:34:1f:09  Open Ports: 80 (HTTP)
+192.168.001.123 - esp32-vadc-94b555f9fac0                   94:b5:55:f9:fa:c0  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.124
+192.168.001.125
+192.168.001.126 - shellyplug-badkamer2                      48:3f:da:28:dc:95  Open Ports: 80 (HTTP)
+192.168.001.127 - esp32s3-09d6a0                            d0:cf:13:09:d6:a0  Open Ports: 80 (HTTP), 443 (HTTPS), 4403 (ASIGRA Televaulting DS-Client Monitoring/Management)
+192.168.001.128
+192.168.001.129 - shellyplugs-freezer2                      28:37:2f:2f:18:90  Open Ports: 80 (HTTP)
+192.168.001.130 - shellyplugs-frigo                         28:37:2f:2f:25:cc  Open Ports: 80 (HTTP)
+192.168.001.131
+192.168.001.132 - shelly2pm-gardenpump                      40:22:d8:d8:7a:78  Open Ports: 80 (HTTP)
+192.168.001.133
+192.168.001.134
+192.168.001.135
+192.168.001.136
+192.168.001.137
+192.168.001.138 - hpoj7110                              !!!!    NOT ALIVE   !!!!
+192.168.001.139 - shelly25-borrelsteen                      c4:5b:be:6b:7b:51  Open Ports: 80 (HTTP)
+192.168.001.140
+192.168.001.141
+192.168.001.142
+192.168.001.143 - esp32-bt-proxy                            fc:01:2c:f6:18:f8  Open Ports: 6053 (X11)
+192.168.001.144
+192.168.001.145 - shelly25-fietsen                          4c:75:25:33:76:5c  Open Ports: 80 (HTTP)
+192.168.001.146
+192.168.001.147
+192.168.001.148
+192.168.001.149
+192.168.001.150 - me-oneplus12r                             32:80:23:86:52:63  Open Ports: 53601 (Dynamic/Private)
+192.168.001.151
+192.168.001.152
+192.168.001.153
+192.168.001.154
+192.168.001.155
+192.168.001.156
+192.168.001.157
+192.168.001.158
+192.168.001.159
+192.168.001.160 - esp32-co2-94e6863cee0c                    94:e6:86:3c:ee:0c  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.161
+192.168.001.162 - esp32-accusturing                         48:e7:29:95:f1:00  Open Ports: 3232 (MDT/OTA)
+192.168.001.163 - esp32-co2-48e7299e4f38                    48:e7:29:9e:4f:38  Open Ports: 80 (HTTP), 3232 (MDT/OTA)
+192.168.001.164
+192.168.001.165
+192.168.001.166
+192.168.001.167
+192.168.001.168
+192.168.001.169
+192.168.001.170
+192.168.001.171
+192.168.001.172
+192.168.001.173
+192.168.001.174
+192.168.001.175
+192.168.001.176
+192.168.001.177
+192.168.001.178
+192.168.001.179
+192.168.001.180
+192.168.001.181
+192.168.001.182
+192.168.001.183
+192.168.001.184
+192.168.001.185
+192.168.001.186
+192.168.001.187
+192.168.001.188
+192.168.001.189
+192.168.001.190
+192.168.001.191
+192.168.001.192
+192.168.001.193
+192.168.001.194
+192.168.001.195
+192.168.001.196
+192.168.001.197
+192.168.001.198
+192.168.001.199
+192.168.001.200
+192.168.001.201
+192.168.001.202
+192.168.001.203
+192.168.001.204
+192.168.001.205
+192.168.001.206
+192.168.001.207
+192.168.001.208
+192.168.001.209
+192.168.001.210
+192.168.001.211
+192.168.001.212
+192.168.001.213
+192.168.001.214
+192.168.001.215
+192.168.001.216
+192.168.001.217
+192.168.001.218
+192.168.001.219
+192.168.001.220
+192.168.001.221
+192.168.001.222
+192.168.001.223
+192.168.001.224
+192.168.001.225
+192.168.001.226
+192.168.001.227
+192.168.001.228
+192.168.001.229
+192.168.001.230
+192.168.001.231
+192.168.001.232
+192.168.001.233
+192.168.001.234
+192.168.001.235
+192.168.001.236
+192.168.001.237
+192.168.001.238
+192.168.001.239
+192.168.001.240
+192.168.001.241
+192.168.001.242
+192.168.001.243
+192.168.001.244
+192.168.001.245
+192.168.001.246
+192.168.001.247
+192.168.001.248
+192.168.001.249
+192.168.001.250
+192.168.001.251
+192.168.001.252
+192.168.001.253
+192.168.001.254
+
+

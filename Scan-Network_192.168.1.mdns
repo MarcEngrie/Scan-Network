@@ -1,0 +1,304 @@
+##################################################
+### File created by Scan-Network               ###
+###                 Version: 4.00              ###
+### File created on 2025-09-02                 ###
+##################################################
+### Network: 192.168.1       255.255.255.0     ###
+###          192.168.1.0/24                    ###
+###          192.168.1.0     255.255.255.0     ###
+###          192.168.1.1     192.168.1.254     ###
+##################################################
+
+
+Hosts broadcasting services ( 45)
+---------------------------------
+
+192.168.001.001 - router                                    Port:  8000 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [vendor: Synology, model: RT2600ac, serial: 19B0P3N345601, version_major: 5, version_minor: 2, version_build: 8227, admin_port: 8000, secure_admin_port: 8001, mac_address: 00:11:32:BF:D2:74|00:11:32:BF:D2:75|00:11:32:BF:D2:76]
+                                                            Port:     9 - Service: WORKSTATION                              (_workstation._tcp.local.      )
+
+192.168.001.009 - devolo-5400                               Port: 14791 - Service: DEVOLO API                               (_dvl-deviceapi._tcp.local.    ) with properties [Path: f08d59c1bcc94963/deviceapi, Version: v0, MinorVersion: 2, Product: WiFi 6 Repeater 5400, Features: led,repeater0,reset,restart,support,update,wifi1, MT: 3256, SN: 2208251911001165, FirmwareVersion: 6.0.1, FirmwareDate: 2023-09-06]
+                                                            Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [path: /, vendorUrl: http://www.devolo.de]
+                                                            Port:   443 - Service: HTTPS SERVER                             (_https._tcp.local.            ) with properties [path: /, vendorUrl: http://www.devolo.de]
+
+192.168.001.017 - storage2                                  Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local.      ) with properties [model: Xserve]
+                                                            Port:    21 - Service: FTP                                      (_ftp._tcp.local.              )
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.              )
+
+192.168.001.036 - esp32-alarm                               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.037 - shellyplus1pm-083af202093c                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+
+192.168.001.039 - volumio-keuken-2                          Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  5000 - Service: RAOP (Remote Audio Output Protocol)      (_raop._tcp.local.             ) with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+                                                            Port:  3000 - Service: VOLUMIO                                  (_volumio._tcp.local.          ) with properties [volumioName: volumio-keuken, UUID: e3a5a412-0156-469e-973b-7c053300e232]
+
+192.168.001.049 - volumio-living                            Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local.      ) with properties [model: MacSamba]
+                                                            Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  5000 - Service: RAOP (Remote Audio Output Protocol)      (_raop._tcp.local.             ) with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.              )
+                                                            Port:  3000 - Service: VOLUMIO                                  (_volumio._tcp.local.          ) with properties [volumioName: volumio-living, UUID: 8c1ffe59-cd11-4bc7-94a3-142dffe8eea6]
+
+192.168.001.050 - volumio-garage                            Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local.      ) with properties [model: MacSamba]
+                                                            Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  5000 - Service: RAOP (Remote Audio Output Protocol)      (_raop._tcp.local.             ) with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.              )
+                                                            Port:  3000 - Service: VOLUMIO                                  (_volumio._tcp.local.          ) with properties [volumioName: volumio-garage, UUID: 19e6e520-2e36-49f1-80ba-6c6a8ce1f63e]
+
+192.168.001.057 - esp32-co2-48e7299ff6ec                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.059 - shellyswitch25-4c752532ec59               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-4C752532EC59, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.061 - df8ff6f6-6af3-217d-5e5b-bea0963a1552      Port:  8009 - Service: CHROMECAST                               (_googlecast._tcp.local.       ) with properties [id: df8ff6f66af3217d5e5bbea0963a1552, cd: DEEB763D8033F264448C43FCE082418F, ve: 05, md: Chromecast, ic: /setup/icon.png, fn: BedroomTV, ca: 201221, st: 0, bs: FA8FCA661228, nf: 1]
+                                                            Port: 10001 - Service: GOOGLE ZONE                              (_googlezone._tcp.local.       ) with properties [id: DEEB763D8033F264448C43FCE082418F]
+
+192.168.001.064 - shellyplug-6cc741                         Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyplug-6CC741, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.066 - octopi                                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [path: /]
+                                                            Port:    80 - Service: OCTOPRINT                                (_octoprint._tcp.local.        ) with properties [path: /, version: 1.11.2, api: 0.1, uuid: edc78a56-83a1-4953-9e3c-2bceac126730]
+
+192.168.001.069 - shellyswitch25-4c752533a576               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-4C752533A576, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.070 - epsonwf3820                               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:   631 - Service: INTERNET PRINTER                         (_ipp._tcp.local.              ) with properties [txtvers: 1, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/octet-stream,image/pwg-raster,image/urf,image/jpeg,application/vnd.epson.escpr, rp: ipp/print, qtotal: 1, Color: T, Duplex: T, Scan: T, Fax: T, rfo: ipp/faxout, kind: document,envelope,photo, PaperMax: legal-A4, URF: CP1,PQ4-5,OB9,OFU0,RS300-600,SRGB24,W8,DM3,IS1,V1.4,MT1-3-6-8-10-11-12, mopria-certified: 2.0, priority: 30, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, TLS: 1.2]
+                                                            Port:   631 - Service: INTERNET PRINTER SECURE                  (_ipps._tcp.local.             ) with properties [txtvers: 1, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/octet-stream,image/pwg-raster,image/urf,image/jpeg,application/vnd.epson.escpr, rp: ipp/print, qtotal: 1, Color: T, Duplex: T, Scan: T, Fax: T, rfo: ipp/faxout, kind: document,envelope,photo, PaperMax: legal-A4, URF: CP1,PQ4-5,OB9,OFU0,RS300-600,SRGB24,W8,DM3,IS1,V1.4,MT1-3-6-8-10-11-12, mopria-certified: 2.0, priority: 30, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, TLS: 1.2]
+                                                            Port:   515 - Service: PRINTER                                  (_printer._tcp.local.          ) with properties [txtvers: 1, priority: 50, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/vnd.epson.escpr, rp: auto, qtotal: 1, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau]
+                                                            Port:  9100 - Service: PRINTER DATASTREAM                       (_pdl-datastream._tcp.local.   ) with properties [txtvers: 1, priority: 40, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/vnd.epson.escpr, qtotal: 1, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau]
+                                                            Port:  1865 - Service: SCANNER                                  (_scanner._tcp.local.          ) with properties [txtvers: 1, ty: EPSON WF-3820 Series, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, mfg: EPSON, mdl: WF-3820 Series, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, scannerAvailable: 0, note: Bureau]
+                                                            Port:   443 - Service: SCANNER SERVICE                          (_uscan._tcp.local.            ) with properties [txtvers: 1, vers: 2.63, rs: eSCL, ty: EPSON WF-3820 Series, pdl: application/pdf,image/jpeg, cs: color,grayscale,binary, is: platen,adf, duplex: F, mopria-certified-scan: 1.3, usb_MFG: EPSON, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, note: Bureau, representation: https://EPSONWF3820.local.:443/PRESENTATION/AIRPRINT/PRINTER_128.PNG]
+                                                            Port:   443 - Service: SCANNER SERVICE SECURE                   (_uscans._tcp.local.           ) with properties [txtvers: 1, vers: 2.63, rs: eSCL, ty: EPSON WF-3820 Series, pdl: application/pdf,image/jpeg, cs: color,grayscale,binary, is: platen,adf, duplex: F, mopria-certified-scan: 1.3, usb_MFG: EPSON, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, note: Bureau, representation: https://EPSONWF3820.local.:443/PRESENTATION/AIRPRINT/PRINTER_128.PNG]
+
+192.168.001.071 - esp32-vadc-94b555f9edcc                   Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.072 - shellyplus1pm-80646fe29f8c                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+
+192.168.001.076 - b37cf927463740c1b2fa4152464ec478          Port:  8123 - Service: HOME ASSISTANT                           (_home-assistant._tcp.local.   ) with properties [location_name: Home, uuid: b37cf927463740c1b2fa4152464ec478, version: 2025.8.3, internal_url: http://192.168.1.76:8123, base_url: http://192.168.1.76:8123, requires_api_password: True]
+
+192.168.001.077 - shellyplug-28e078                         Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyplug-28E078, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.081 - shellypro4pm-30c6f7834548                 Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Pro4PM, ver: 1.7.0]
+
+192.168.001.082 - esp32-co2-3ce90e852504                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.083 - volumio-badkamer                          Port:     0 - Service: DEVICE INFO                              (_device-info._tcp.local.      ) with properties [model: MacSamba]
+                                                            Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  5000 - Service: RAOP (Remote Audio Output Protocol)      (_raop._tcp.local.             ) with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+                                                            Port:   445 - Service: SMB                                      (_smb._tcp.local.              )
+                                                            Port:  3000 - Service: VOLUMIO                                  (_volumio._tcp.local.          ) with properties [volumioName: volumio-badkamer, UUID: 8f6eeebc-11db-41b3-a459-5fa0d0fc8d4e]
+
+192.168.001.084 - shellyplus1pm-b0b21c0e8b5c                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+
+192.168.001.092 - watersoftener                             Port:  5140 - Service: DURLEM SERVICE                           (_durlem._tcp.local.           ) with properties [Manufacturer: DVC, Model: 0CI, FirmV: 02.00.17, SN: 762425]
+
+192.168.001.093 - shellyplus2pm-d48afc7d5a04                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Plus2PM, ver: 1.7.0]
+
+192.168.001.095 - shellyplugsg3-28372f2ef73c                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 3]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+
+192.168.001.100 - shellyswitch25-4c752532b163               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-4C752532B163, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.110 - esp32-sw-48e7299ff720                     Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.116 - esp32-co2-7c9ebd61a514                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.118 - esp32-mainsvlogger                        Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.121 - shellyswitch25-f4cfa2eca194               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-F4CFA2ECA194, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.122 - shellyswitch25-4c7525341f09               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-4C7525341F09, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.123 - esp32-vadc-94b555f9fac0                   Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.126 - shellyplug-28dc95                         Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyplug-28DC95, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.127 - meshtastic                                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:   443 - Service: HTTPS SERVER                             (_https._tcp.local.            )
+                                                            Port:  4403 - Service: MESHTASTIC                               (_meshtastic._tcp.local.       )
+
+192.168.001.129 - shellyplugsg3-28372f2f1890                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 3]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+
+192.168.001.130 - shellyplugsg3-28372f2f25cc                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 3]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+
+192.168.001.132 - shellyplus2pm-4022d8d87a78                Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [gen: 2]
+                                                            Port:    80 - Service: SHELLY WEB                               (_shelly._tcp.local.           ) with properties [gen: 2, app: Plus2PM, ver: 1.7.0]
+
+192.168.001.139 - shellyswitch25-c45bbe6b7b51               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-C45BBE6B7B51, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.143 - esp32-bt-proxy                            Port:  6053 - Service: ESPHOME                                  (_esphomelib._tcp.local.       ) with properties [network: wifi, board: esp32-c6-devkitm-1, platform: ESP32, mac: fc012cf618f8, version: 2025.7.4]
+
+192.168.001.145 - shellyswitch25-4c752533765c               Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             ) with properties [id: shellyswitch25-4C752533765C, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+192.168.001.150 - android_fcrz8nof                          Port: 53601 - Service: ANDROID STUFF                            (_fc9f5ed42c8a._tcp.local.     ) with properties [f: 5200, n: MkOTwUGl1oAkAkLAAOKorE4, IPv4: 192.168.1.150]
+
+192.168.001.160 - esp32-co2-94e6863cee0c                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.162 - esp32-accusturing                         Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+192.168.001.163 - esp32-co2-48e7299e4f38                    Port:    80 - Service: HTTP SERVER                              (_http._tcp.local.             )
+                                                            Port:  3232 - Service: OTA                                      (_arduino._tcp.local.          ) with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+
+Services being broadcasted  (26)
+--------------------------------
+Service: ANDROID STUFF                       (_fc9f5ed42c8a._tcp.local.)
+  android_fcrz8nof                              on <192.168.001.150> listing on port <53601> with properties [f: 5200, n: MkOTwUGl1oAkAkLAAOKorE4, IPv4: 192.168.1.150]
+
+Service: CHROMECAST                          (_googlecast._tcp.local.)
+  df8ff6f6-6af3-217d-5e5b-bea0963a1552          on <192.168.001.061> listing on port < 8009> with properties [id: df8ff6f66af3217d5e5bbea0963a1552, cd: DEEB763D8033F264448C43FCE082418F, ve: 05, md: Chromecast, ic: /setup/icon.png, fn: BedroomTV, ca: 201221, st: 0, bs: FA8FCA661228, nf: 1]
+
+Service: DEVICE INFO                         (_device-info._tcp.local.)
+  storage2                                      on <192.168.001.017> listing on port <    0> with properties [model: Xserve]
+  volumio-badkamer                              on <192.168.001.083> listing on port <    0> with properties [model: MacSamba]
+  volumio-garage                                on <192.168.001.050> listing on port <    0> with properties [model: MacSamba]
+  volumio-living                                on <192.168.001.049> listing on port <    0> with properties [model: MacSamba]
+
+Service: DEVOLO API                          (_dvl-deviceapi._tcp.local.)
+  devolo-5400                                   on <192.168.001.009> listing on port <14791> with properties [Path: f08d59c1bcc94963/deviceapi, Version: v0, MinorVersion: 2, Product: WiFi 6 Repeater 5400, Features: led,repeater0,reset,restart,support,update,wifi1, MT: 3256, SN: 2208251911001165, FirmwareVersion: 6.0.1, FirmwareDate: 2023-09-06]
+
+Service: DURLEM SERVICE                      (_durlem._tcp.local.)
+  watersoftener                                 on <192.168.001.092> listing on port < 5140> with properties [Manufacturer: DVC, Model: 0CI, FirmV: 02.00.17, SN: 762425]
+
+Service: ESPHOME                             (_esphomelib._tcp.local.)
+  esp32-bt-proxy                                on <192.168.001.143> listing on port < 6053> with properties [network: wifi, board: esp32-c6-devkitm-1, platform: ESP32, mac: fc012cf618f8, version: 2025.7.4]
+
+Service: FTP                                 (_ftp._tcp.local.)
+  storage2                                      on <192.168.001.017> listing on port <   21>
+
+Service: GOOGLE ZONE                         (_googlezone._tcp.local.)
+  df8ff6f6-6af3-217d-5e5b-bea0963a1552          on <192.168.001.061> listing on port <10001> with properties [id: DEEB763D8033F264448C43FCE082418F]
+
+Service: HOME ASSISTANT                      (_home-assistant._tcp.local.)
+  b37cf927463740c1b2fa4152464ec478              on <192.168.001.076> listing on port < 8123> with properties [location_name: Home, uuid: b37cf927463740c1b2fa4152464ec478, version: 2025.8.3, internal_url: http://192.168.1.76:8123, base_url: http://192.168.1.76:8123, requires_api_password: True]
+
+Service: HTTP SERVER                         (_http._tcp.local.)
+  shellyplug-28e078                             on <192.168.001.077> listing on port <   80> with properties [id: shellyplug-28E078, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+  router                                        on <192.168.001.001> listing on port < 8000> with properties [vendor: Synology, model: RT2600ac, serial: 19B0P3N345601, version_major: 5, version_minor: 2, version_build: 8227, admin_port: 8000, secure_admin_port: 8001, mac_address: 00:11:32:BF:D2:74|00:11:32:BF:D2:75|00:11:32:BF:D2:76]
+  volumio-keuken-2                              on <192.168.001.039> listing on port <   80>
+  devolo-5400                                   on <192.168.001.009> listing on port <   80> with properties [path: /, vendorUrl: http://www.devolo.de]
+  volumio-badkamer                              on <192.168.001.083> listing on port <   80>
+  volumio-living                                on <192.168.001.049> listing on port <   80>
+  volumio-garage                                on <192.168.001.050> listing on port <   80>
+  shellyplug-6cc741                             on <192.168.001.064> listing on port <   80> with properties [id: shellyplug-6CC741, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+  shellyplug-28dc95                             on <192.168.001.126> listing on port <   80> with properties [id: shellyplug-28DC95, arch: esp8266, app: shelly-plug2, fw_version: 1.0, fw_id: 20230913-113610/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-f4cfa2eca194                   on <192.168.001.121> listing on port <   80> with properties [id: shellyswitch25-F4CFA2ECA194, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-4c752533765c                   on <192.168.001.145> listing on port <   80> with properties [id: shellyswitch25-4C752533765C, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-4c752532ec59                   on <192.168.001.059> listing on port <   80> with properties [id: shellyswitch25-4C752532EC59, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-c45bbe6b7b51                   on <192.168.001.139> listing on port <   80> with properties [id: shellyswitch25-C45BBE6B7B51, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-4c752532b163                   on <192.168.001.100> listing on port <   80> with properties [id: shellyswitch25-4C752532B163, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  shellyswitch25-4c752533a576                   on <192.168.001.069> listing on port <   80> with properties [id: shellyswitch25-4C752533A576, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+  epsonwf3820                                   on <192.168.001.070> listing on port <   80>
+  meshtastic                                    on <192.168.001.127> listing on port <   80>
+  shellypro4pm-30c6f7834548                     on <192.168.001.081> listing on port <   80> with properties [gen: 2]
+  esp32-vadc-94b555f9fac0                       on <192.168.001.123> listing on port <   80>
+  esp32-co2-48e7299ff6ec                        on <192.168.001.057> listing on port <   80>
+  shellyplugsg3-28372f2f25cc                    on <192.168.001.130> listing on port <   80> with properties [gen: 3]
+  octopi                                        on <192.168.001.066> listing on port <   80> with properties [path: /]
+  shellyplus1pm-80646fe29f8c                    on <192.168.001.072> listing on port <   80> with properties [gen: 2]
+  esp32-mainsvlogger                            on <192.168.001.118> listing on port <   80>
+  esp32-co2-48e7299e4f38                        on <192.168.001.163> listing on port <   80>
+  shellyplus2pm-4022d8d87a78                    on <192.168.001.132> listing on port <   80> with properties [gen: 2]
+  esp32-sw-48e7299ff720                         on <192.168.001.110> listing on port <   80>
+  shellyplus1pm-b0b21c0e8b5c                    on <192.168.001.084> listing on port <   80> with properties [gen: 2]
+  esp32-co2-3ce90e852504                        on <192.168.001.082> listing on port <   80>
+  esp32-alarm                                   on <192.168.001.036> listing on port <   80>
+  esp32-co2-94e6863cee0c                        on <192.168.001.160> listing on port <   80>
+  shellyplugsg3-28372f2ef73c                    on <192.168.001.095> listing on port <   80> with properties [gen: 3]
+  shellyplus1pm-083af202093c                    on <192.168.001.037> listing on port <   80> with properties [gen: 2]
+  shellyplugsg3-28372f2f1890                    on <192.168.001.129> listing on port <   80> with properties [gen: 3]
+  esp32-co2-7c9ebd61a514                        on <192.168.001.116> listing on port <   80>
+  esp32-vadc-94b555f9edcc                       on <192.168.001.071> listing on port <   80>
+  shellyplus2pm-d48afc7d5a04                    on <192.168.001.093> listing on port <   80> with properties [gen: 2]
+  shellyswitch25-4c7525341f09                   on <192.168.001.122> listing on port <   80> with properties [id: shellyswitch25-4C7525341F09, arch: esp8266, app: switch25, fw_version: 1.0, fw_id: 20230913-112234/v1.14.0-gcb84623, discoverable: false]
+
+Service: HTTPS SERVER                        (_https._tcp.local.)
+  devolo-5400                                   on <192.168.001.009> listing on port <  443> with properties [path: /, vendorUrl: http://www.devolo.de]
+  meshtastic                                    on <192.168.001.127> listing on port <  443>
+
+Service: INTERNET PRINTER                    (_ipp._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port <  631> with properties [txtvers: 1, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/octet-stream,image/pwg-raster,image/urf,image/jpeg,application/vnd.epson.escpr, rp: ipp/print, qtotal: 1, Color: T, Duplex: T, Scan: T, Fax: T, rfo: ipp/faxout, kind: document,envelope,photo, PaperMax: legal-A4, URF: CP1,PQ4-5,OB9,OFU0,RS300-600,SRGB24,W8,DM3,IS1,V1.4,MT1-3-6-8-10-11-12, mopria-certified: 2.0, priority: 30, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, TLS: 1.2]
+
+Service: INTERNET PRINTER SECURE             (_ipps._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port <  631> with properties [txtvers: 1, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/octet-stream,image/pwg-raster,image/urf,image/jpeg,application/vnd.epson.escpr, rp: ipp/print, qtotal: 1, Color: T, Duplex: T, Scan: T, Fax: T, rfo: ipp/faxout, kind: document,envelope,photo, PaperMax: legal-A4, URF: CP1,PQ4-5,OB9,OFU0,RS300-600,SRGB24,W8,DM3,IS1,V1.4,MT1-3-6-8-10-11-12, mopria-certified: 2.0, priority: 30, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, TLS: 1.2]
+
+Service: MESHTASTIC                          (_meshtastic._tcp.local.)
+  meshtastic                                    on <192.168.001.127> listing on port < 4403>
+
+Service: OCTOPRINT                           (_octoprint._tcp.local.)
+  octopi                                        on <192.168.001.066> listing on port <   80> with properties [path: /, version: 1.11.2, api: 0.1, uuid: edc78a56-83a1-4953-9e3c-2bceac126730]
+
+Service: OTA                                 (_arduino._tcp.local.)
+  esp32-co2-7c9ebd61a514                        on <192.168.001.116> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-co2-3ce90e852504                        on <192.168.001.082> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-vadc-94b555f9fac0                       on <192.168.001.123> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-co2-48e7299ff6ec                        on <192.168.001.057> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-co2-48e7299e4f38                        on <192.168.001.163> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-sw-48e7299ff720                         on <192.168.001.110> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-co2-94e6863cee0c                        on <192.168.001.160> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-alarm                                   on <192.168.001.036> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-mainsvlogger                            on <192.168.001.118> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-accusturing                             on <192.168.001.162> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+  esp32-vadc-94b555f9edcc                       on <192.168.001.071> listing on port < 3232> with properties [auth_upload: no, ssh_upload: no, tcp_check: no, board: doitESP32devkitV1]
+
+Service: PRINTER                             (_printer._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port <  515> with properties [txtvers: 1, priority: 50, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/vnd.epson.escpr, rp: auto, qtotal: 1, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau]
+
+Service: PRINTER DATASTREAM                  (_pdl-datastream._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port < 9100> with properties [txtvers: 1, priority: 40, ty: EPSON WF-3820 Series, usb_MFG: EPSON, usb_MDL: WF-3820 Series, product: (EPSON WF-3820 Series), pdl: application/vnd.epson.escpr, qtotal: 1, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, note: Bureau]
+
+Service: RAOP (Remote Audio Output Protocol) (_raop._tcp.local.)
+  volumio-keuken-2                              on <192.168.001.039> listing on port < 5000> with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+  volumio-badkamer                              on <192.168.001.083> listing on port < 5000> with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+  volumio-garage                                on <192.168.001.050> listing on port < 5000> with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+  volumio-living                                on <192.168.001.049> listing on port < 5000> with properties [sf: 0x4, fv: 76400.10, am: ShairportSync, vs: 105.1, tp: TCP,UDP, vn: 65537, ss: 16, sr: 44100, da: true, sv: false, et: 0,1, ek: 1, cn: 0,1, ch: 2, txtvers: 1, pw: false]
+
+Service: SCANNER                             (_scanner._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port < 1865> with properties [txtvers: 1, ty: EPSON WF-3820 Series, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, mfg: EPSON, mdl: WF-3820 Series, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, scannerAvailable: 0, note: Bureau]
+
+Service: SCANNER SERVICE                     (_uscan._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port <  443> with properties [txtvers: 1, vers: 2.63, rs: eSCL, ty: EPSON WF-3820 Series, pdl: application/pdf,image/jpeg, cs: color,grayscale,binary, is: platen,adf, duplex: F, mopria-certified-scan: 1.3, usb_MFG: EPSON, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, note: Bureau, representation: https://EPSONWF3820.local.:443/PRESENTATION/AIRPRINT/PRINTER_128.PNG]
+
+Service: SCANNER SERVICE SECURE              (_uscans._tcp.local.)
+  epsonwf3820                                   on <192.168.001.070> listing on port <  443> with properties [txtvers: 1, vers: 2.63, rs: eSCL, ty: EPSON WF-3820 Series, pdl: application/pdf,image/jpeg, cs: color,grayscale,binary, is: platen,adf, duplex: F, mopria-certified-scan: 1.3, usb_MFG: EPSON, adminurl: http://EPSONWF3820.local.:80/PRESENTATION/BONJOUR, UUID: cfe92100-67c4-11d4-a45f-dccd2f9bf6cb, note: Bureau, representation: https://EPSONWF3820.local.:443/PRESENTATION/AIRPRINT/PRINTER_128.PNG]
+
+Service: SHELLY WEB                          (_shelly._tcp.local.)
+  shellyplus2pm-d48afc7d5a04                    on <192.168.001.093> listing on port <   80> with properties [gen: 2, app: Plus2PM, ver: 1.7.0]
+  shellypro4pm-30c6f7834548                     on <192.168.001.081> listing on port <   80> with properties [gen: 2, app: Pro4PM, ver: 1.7.0]
+  shellyplugsg3-28372f2f25cc                    on <192.168.001.130> listing on port <   80> with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+  shellyplus1pm-083af202093c                    on <192.168.001.037> listing on port <   80> with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+  shellyplus2pm-4022d8d87a78                    on <192.168.001.132> listing on port <   80> with properties [gen: 2, app: Plus2PM, ver: 1.7.0]
+  shellyplugsg3-28372f2ef73c                    on <192.168.001.095> listing on port <   80> with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+  shellyplugsg3-28372f2f1890                    on <192.168.001.129> listing on port <   80> with properties [gen: 3, app: PlugSG3, ver: 1.7.0]
+  shellyplus1pm-80646fe29f8c                    on <192.168.001.072> listing on port <   80> with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+  shellyplus1pm-b0b21c0e8b5c                    on <192.168.001.084> listing on port <   80> with properties [gen: 2, app: Plus1PM, ver: 1.7.0]
+
+Service: SMB                                 (_smb._tcp.local.)
+  storage2                                      on <192.168.001.017> listing on port <  445>
+  volumio-badkamer                              on <192.168.001.083> listing on port <  445>
+  volumio-garage                                on <192.168.001.050> listing on port <  445>
+  volumio-living                                on <192.168.001.049> listing on port <  445>
+
+Service: VOLUMIO                             (_volumio._tcp.local.)
+  volumio-keuken-2                              on <192.168.001.039> listing on port < 3000> with properties [volumioName: volumio-keuken, UUID: e3a5a412-0156-469e-973b-7c053300e232]
+  volumio-living                                on <192.168.001.049> listing on port < 3000> with properties [volumioName: volumio-living, UUID: 8c1ffe59-cd11-4bc7-94a3-142dffe8eea6]
+  volumio-badkamer                              on <192.168.001.083> listing on port < 3000> with properties [volumioName: volumio-badkamer, UUID: 8f6eeebc-11db-41b3-a459-5fa0d0fc8d4e]
+  volumio-garage                                on <192.168.001.050> listing on port < 3000> with properties [volumioName: volumio-garage, UUID: 19e6e520-2e36-49f1-80ba-6c6a8ce1f63e]
+
+Service: WORKSTATION                         (_workstation._tcp.local.)
+  router                                        on <192.168.001.001> listing on port <    9>
+
+
