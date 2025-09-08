@@ -9,7 +9,9 @@ If you enabled port scanning in the YAML file (see later), a portscan will be ex
 IP addresses that responded. 
 A file listing all of this information can be generated. 
 
-**Note:** 
+**Note:**
+  You need Python version 3.13 or higher
+  
   To make use of arp scanning you need Npcap 1.83 or higher to be install on your Windows computer.
   You can download and install it from here https://npcap.com/#download
   If you use the Python version, you need also to install scapy using 
